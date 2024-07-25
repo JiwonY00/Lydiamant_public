@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <title>Lydiamant</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+        .styled-title {
+            border-radius: 5em; /* 모서리를 둥글게 */
+            padding: 0.5em; /* 패딩 */
+            background: #dcf1fb; /* 배경색 */
+            font-weight: bold; /* 굵은 글씨 */
+            display: block;
+            text-align: center; /* 가운데 정렬 */
+            width: 100%; /* 너비 100% */
+            box-sizing: border-box; /* 패딩을 포함한 너비 계산 */
+            text-decoration: none; /* 링크 스타일 제거 */
+            margin: 0; /* 여백 제거 */
+            color: black; /* 텍스트 색상 */
+        }
+        a {
+            color: black; /* 링크 기본 텍스트 색상 */
+            text-decoration: none; /* 링크 밑줄 제거 */
+        }
+        a:visited {
+            color: black; /* 방문한 링크 텍스트 색상 */
+        }
+        a:hover {
+            text-decoration: underline; /* 링크 호버 시 밑줄 추가 */
+        }
+        hr {
+            border: none;
+            border-top: 2px solid #377f48;
+            margin: 20px 0;
+        }
+        .custom-list {
+            list-style-type: none; /* 기본 목록 스타일 제거 */
+            padding: 0;
+        }
+        .custom-list li {
+            margin: 10px 0;
+        }
+        .custom-list li::before {
+            content: "-"; /* 각 항목 앞에 "-" 부호 추가 */
+            color: #377f48; /* 부호 색상 */
+            margin-right: 10px;
+        }
+        .content {
+            text-align: center; /* 가운데 정렬 */
+        }
+        .custom-list .sub-list {
+            margin-left: 20px; /* 하위 목록 들여쓰기 */
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="index.html" class="styled-title">👩‍💻Lydiamant</a></h1>
+    <hr>
+    <ul class="custom-list">
+        <li><a href="2.html">📌 About me</a></li>
+        <li><a href="4.html">🏖️ 좋아하는 것들</a></li>
+        <li>
+            <a href="5-1.html">📸 Photos.zip</a>
+            <ul class="custom-list sub-list">
+                <li><a href="Corée.html">Corée</a></li>
+                <li><a href="Pays étrangers.html">Pays étrangers</a></li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <p><span style="border: 5px double #DCDCDC; padding: 0.4em;">🏖️ 좋아하는 것들</span></p>
+    <Br>영화 보기, 음악 감상, 여행하기, 외국어 배우기, 종로, 바다 보며 멍 때리기, 맛있는 커피 마시기
+    <hr>
+</body>
+<footer>
+    <h4>@Jiwon YOO</h4>
+</footer>
+</html>
